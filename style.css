@@ -37,6 +37,7 @@ body {
 textarea {
   min-height: 8rem;
   width: 100%;
+  margin-top: 10px;
 }
 
 div,
@@ -55,15 +56,16 @@ input {
 #msg {
   color: white;
   text-align: center;
-  padding: 10px;
+  margin-top: 0.6rem;
 }
 
 .form-info {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
   text-align: left;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
@@ -74,9 +76,7 @@ h2 {
 
 #msg {
   font-weight: 200;
-  line-height: 25px;
   font-style: italic;
-  font-size: 18px;
 }
 
 .form-box {
@@ -89,4 +89,5 @@ h2 {
   display: flex;
   margin-right: 5px;
   margin-bottom: 0.5rem;
+  gap: 10px;
 }
