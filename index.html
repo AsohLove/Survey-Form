@@ -7,8 +7,128 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
+    <div class="container">
+        <div>
+            <header class="title" id="survey-title">
+                <h2>freeCodeCamp Survey Form</h2>
+                <p id="msg">Thank you for taking the time to help us improve the platform</p>
+            </header>
+        </div>
+        <form action="/submit-date" method="POST" class="survey-form" id="container">
+            <div class="form-info">
+            <label for="name" id="name">Name</label>
+            <input type="text" placeholder="Enter your name" required class="input-field">
+            </div>
+            <div class="form-info">
+            <label for="email" id="email">Email</label>
+            <input type="email" placeholder="Enter your email" required class="input-field">
+            </div>
+            <div class="form-info">
+            <label for=""age id="age">Age(optional)</label>
+            <input type="number" placeholder="Age" class="input-field">
+            </div>
+
+            <div class="form-info">
+            <p>Which option best describes your current role? </p>
+            <select name="role" id="current-role" required class="input-field">
+                <option value="role">select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="none">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+
+            
+            
+            <p>Would you recommend freeCodeCamp to a friend? </p>
+            <div class="form-box">
+            <div class="style-radio">
+                <input type="radio" name="freecode" checked>
+                <label for="">Definitely</label>
+            </div>
+            <div class="style-radio">
+                <input type="radio" name="freecode" >
+                <label for="">Maybe</label>
+            </div>
+            <div class="style-radio">
+                <input type="radio" name="freecode" >
+                <label for="">Not Sure</label>
+            </div>
+            </div>
+
+            <div class="form-info">
+            <p>What is your favorite feature of freeCodeCamp? </p>
+            <select name="option" id="favorite-feature" class="input-field">
+                <option value="">select an option </option>
+                <option value="">Challenges</option>
+                <option value="">Projects</option>
+                <option value="">Community</option>
+                <option value="">Open Source </option>
+            </select>
+            </div>
+
+            <div class="form-box"> 
+            <p>What would you like to see improved? (check all that apply)</p>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="front-end">
+                <label for="">Front-end Projects</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="back-end">
+                <label for="">Back-end Projects</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="data visualization">
+                <label for="">Data Visualization</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="challenges">
+                <label for="">Challenges</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="community">
+                <label for="">Open Source Community</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="help">
+                <label for="">Gitter help rooms</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="vidoes">
+                <label for="">Videos</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="meetups">
+                <label for="">City Meetups</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="wiki">
+                <label for="">Wiki</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="forum">
+                <label for="">Forum</label>
+            </div>
+            <div class="styling">
+                <input type="checkbox" name="roles" value="courses">
+                <label for="">Additional Courses</label>
+            </div>
+            </div>
+
+            <div class="form-info">
+            <label for="comments">Any comments or suggestions? </label>
+            <textarea name="comment" id="comment-suggestion" placeholder="Enter your comments here..."></textarea>
+            </div>
+            
+            <div class="form-info">
+            <button type="submit" id="submit-btn">Submit</button>
+            </div>
+        </form>
+     </div>
 
 
 </body>
