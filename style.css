@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2)),url(./assets/images/survey.jpeg);
+  background-image: linear-gradient(rgba(79 79 231 /40%), rgba(0 0 255 /40%)),url('./assets/images/survey.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,7 +39,8 @@ textarea {
   width: 100%;
 }
 
-div label, input {
+div label, 
+input {
   display: block;
   text-align: left;
 }
@@ -65,14 +66,13 @@ p {
 }
 
 h2 {
-  font-family: Poppins, sans-serif;
+  
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
 }
 
 #msg {
-  font-family: 'Poppins', sans-serif;
   font-weight: 200;
   line-height: 25px;
   font-style: italic;
