@@ -29,11 +29,22 @@ This is a survey form from the e-learning platform freeCodeCamp written in HTML 
                 </select>
             </div>
 ```
-*Sample screenshot of the survey form*
+*Preview*
 ![freeCodeCamp survey form](/assets/images/sampleSurvey.png)
 
+## Project Technical
+Built with;
+> HTML
+> CSS
 
-## Author
+## Installation
+A local copy of this project can be obtain at [this repository](git@github.com:AsohLove/Survey-Form.git), navigate to the survey form page and open on a browser.
+
+**Deployment link**
+You may as well do well to check out the [Deployed page](https://asohlove.github.io/Survey-Form/)
+
+
+### Author
 
 **Love Asoh**
 
