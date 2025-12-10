@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(79 79 231 /40%), rgba(0 0 255 /40%)), url("assets/images/survey.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 1rem;
+}
+
+.survey-form {
+  width: 40rem;
+  padding: 20px;
+  background-color: #1b1b32;
+  border: 30px;
+  font-size: large;
+  margin: 40px auto;
+  color: white;
+}
+
+#submit-btn {
+  background-color: green;
+  border: none;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+textarea {
+  min-height: 8rem;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+div,
+label,
+input {
+  display: block;
+  text-align: left;
+}
+
+.input-field {
+  width: 100%;
+  height: 2.2rem;
+}
+
+#survey-title,
+#msg {
+  color: white;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.form-info {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#msg {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.form-box {
+  min-height: 1.2rem;
+  min-width: 1.2rem;
+}
+
+.styling,
+.style-radio {
+  display: flex;
+  margin-right: 5px;
+  margin-bottom: 0.5rem;
+  gap: 10px;
+}
